@@ -1,323 +1,136 @@
-prompt --application/set_environment
-set define off verify off feedback off
-whenever sqlerror exit sql.sqlcode rollback
---------------------------------------------------------------------------------
---
--- Oracle APEX export file
---
--- You should run this script using a SQL client connected to the database as
--- the owner (parsing schema) of the application or as a database user with the
--- APEX_ADMINISTRATOR_ROLE role.
---
--- This export file has been automatically generated. Modifying this file is not
--- supported by Oracle and can lead to unexpected application and/or instance
--- behavior now or in the future.
---
--- NOTE: Calls to apex_application_install override the defaults below.
---
---------------------------------------------------------------------------------
-begin
-wwv_flow_imp.import_begin (
- p_version_yyyy_mm_dd=>'2024.11.30'
-,p_default_workspace_id=>120061840371578586088
-);
-end;
-/
--- Oracle APEX 24.2.11 SQL Script Export file
--- Exported 19:46 Sunday January 11, 2026 by: CORGER5719@STUDENTS.ECPI.EDU
--- Scripts included:
---      CORGER5719@STUDENTS.ECPI.EDU
---      CORGER5719@STUDENTS.ECPI.EDU
---      CORGER5719@STUDENTS.ECPI.EDU
---      CORGER5719@STUDENTS.ECPI.EDU
---      CORGER5719@STUDENTS.ECPI.EDU
---      CORGER5719@STUDENTS.ECPI.EDU
---      CORGER5719@STUDENTS.ECPI.EDU
---      CORGER5719@STUDENTS.ECPI.EDU
---      CORGER5719@STUDENTS.ECPI.EDU
---      CORGER5719@STUDENTS.ECPI.EDU
- 
-begin wwv_flow.g_user := nvl(wwv_flow.g_user,'CORGER5719@STUDENTS.ECPI.EDU'); end;
-/
-prompt --application/sql/scripts
-prompt ...exporting script file
---
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C4543540D0A2020434F554E54282A2920202020202020415320746F74616C5F726F77732C0D0A2020434F554E54286E756D5F31292020204153206E6F6E5F6E756C6C5F6E756D5F312C0D0A2020434F554E';
-    wwv_flow_imp.g_varchar2_table(2) := '54282A29202D20434F554E54286E756D5F3129204153206E756C6C5F6E756D5F310D0A46524F4D20736563313130363B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127505897973836629106/3WK_11_6';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK_11_6',
-    p_title=> '3WK_11_6',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C4543540D0A2020434F554E542844495354494E4354206E756D5F31207C7C20277C27207C7C206E756D5F32292041532064697374696E63745F6E756D315F6E756D325F70616972730D0A46524F4D207365';
-    wwv_flow_imp.g_varchar2_table(2) := '63313130333B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127506717174254651003/3WK_11_9';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK_11_9',
-    p_title=> '3WK_11_9',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C4543540D0A2020726F775F69642C0D0A20206E756D5F312C0D0A20206E756D5F322C0D0A2020286E756D5F31202B206E756D5F322920415320726F775F73756D0D0A46524F4D20736563313130330D0A4F';
-    wwv_flow_imp.g_varchar2_table(2) := '5244455220425920726F775F69643B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127507138627311673629/3WK_11_11_1';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK_11_11_1',
-    p_title=> '3WK_11_11_1',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C4543540D0A202053554D286E756D5F31292041532073756D5F6E756D5F312C0D0A202053554D286E756D5F32292041532073756D5F6E756D5F322C0D0A20202853554D286E756D5F3129202B2053554D28';
-    wwv_flow_imp.g_varchar2_table(2) := '6E756D5F32292920415320746F74616C5F73756D0D0A46524F4D20736563313130333B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127507428758143319663/3WK_11_11_2';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK_11_11_2',
-    p_title=> '3WK_11_11_2',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C4543540D0A2020726F775F69642C0D0A20206E756D5F312C0D0A20206E756D5F322C0D0A2020284E564C286E756D5F312C203029202B204E564C286E756D5F322C2030292920415320726F775F73756D5F';
-    wwv_flow_imp.g_varchar2_table(2) := '66697865640D0A46524F4D20736563313130330D0A4F5244455220425920726F775F69643B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127507793294321332948/3WK_11_11_3';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK_11_11_3',
-    p_title=> '3WK_11_11_3',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C4543540D0A2020636F6C5F312C0D0A202053554D28636F6C5F33292041532073756D5F636F6C5F330D0A46524F4D20736563313230320D0A47524F555020425920636F6C5F310D0A4F5244455220425920';
-    wwv_flow_imp.g_varchar2_table(2) := '636F6C5F313B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127508341381631736821/3WK_12-2';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK_12-2',
-    p_title=> '3WK_12-2',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C4543540D0A2020636F6C5F312C0D0A2020636F6C5F322C0D0A202053554D28636F6C5F33292041532073756D5F636F6C5F330D0A46524F4D20736563313230320D0A47524F555020425920636F6C5F312C';
-    wwv_flow_imp.g_varchar2_table(2) := '20636F6C5F320D0A4F5244455220425920636F6C5F312C20636F6C5F323B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127508742808265756987/3WK_12-4';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK_12-4',
-    p_title=> '3WK_12-4',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C4543540D0A2020636F6C5F312C0D0A202053554D28636F6C5F32292041532073756D5F636F6C5F320D0A46524F4D20736563313231310D0A47524F555020425920636F6C5F310D0A484156494E47205355';
-    wwv_flow_imp.g_varchar2_table(2) := '4D28636F6C5F3229203E2032300D0A4F5244455220425920636F6C5F313B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127509400047971412827/3WK_11-11';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK_11-11',
-    p_title=> '3WK_11-11',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C4543540D0A2020544F5F4348415228726F775F69642920415320726F775F69642C0D0A2020636F6C5F312C0D0A2020636F6C5F322C0D0A2020636F6C5F330D0A46524F4D20736563313230320D0A0D0A55';
-    wwv_flow_imp.g_varchar2_table(2) := '4E494F4E20414C4C0D0A0D0A53454C4543540D0A2020274752414E4420544F54414C2720415320726F775F69642C0D0A20204E554C4C202020202020202020415320636F6C5F312C0D0A20204E554C4C202020202020202020415320636F6C5F322C0D0A';
-    wwv_flow_imp.g_varchar2_table(3) := '202053554D28636F6C5F3329202020415320636F6C5F330D0A46524F4D20736563313230323B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127511465860067465216/3WK12_7';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK12_7',
-    p_title=> '3WK12_7',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-    wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-    wwv_flow_imp.g_varchar2_table(1) := '2D2D436F7261204765726D616E790D0A53454C454354202D2D7265706F7274206C6576656C0D0A2020726F775F69642C0D0A2020636F6C5F312C0D0A2020636F6C5F322C0D0A2020636F6C5F332C0D0A202053554D28636F6C5F3329204F564552202829';
-    wwv_flow_imp.g_varchar2_table(2) := '204153206772616E645F746F74616C0D0A46524F4D20736563313230323B0D0A';
-end;
-/
- 
-declare
-  l_name   varchar2(255);
-begin
-  l_name   := '127511965422801487925/3WK12_7a';
-  wwv_imp_workspace.import_script(
-    p_name          => l_name,
-    p_varchar2_table=> wwv_flow_imp.g_varchar2_table,
-    p_pathid=> null,
-    p_filename=> '3WK12_7a',
-    p_title=> '3WK12_7a',
-    p_mime_type=> 'text/plain',
-    p_dad_charset=> '',
-    p_deleted_as_of=> to_date('00010101000000','YYYYMMDDHH24MISS'),
-    p_content_type=> 'BLOB',
-    p_language=> '',
-    p_description=> '',
-    p_file_type=> 'SCRIPT',
-    p_file_charset=> 'utf-8');
-end;
-/
-begin
-wwv_flow_imp.import_end(p_auto_install_sup_obj => nvl(wwv_flow_application_install.get_auto_install_sup_obj, false)
-);
---commit;
-end;
-/
-set verify on feedback on define on
-prompt  ...done
+/* ============================================================
+   Chapter 11 & 12 Exercises (Oracle SQL)
+   Student: Cora Germany
+   File: ch11_ch12_exercises.sql
+   ============================================================ */
+
+SET PAGESIZE 200;
+SET LINESIZE 200;
+
+/* ------------------------------------------------------------
+   (11-3) Question 1
+   SEC1103: Find the minimum and maximum values of NUM_1
+   ------------------------------------------------------------ */
+SELECT
+  MIN(num_1) AS "minimum",
+  MAX(num_1) AS "maximum"
+FROM sec1103;
+
+/* ------------------------------------------------------------
+   (11-4) Question 2
+   SEC1103: Find MIN and MAX of NUM_1 where ROW_ID < 8
+   ------------------------------------------------------------ */
+SELECT
+  MIN(num_1) AS "minimum",
+  MAX(num_1) AS "maximum"
+FROM sec1103
+WHERE row_id < 8;
+
+/* ------------------------------------------------------------
+   (11-6) Question 3
+   SEC1106:
+   - total number of rows
+   - number of rows with non-null NUM_1
+   - number of rows with null NUM_1
+   ------------------------------------------------------------ */
+SELECT
+  COUNT(*) AS total_rows,
+  COUNT(num_1) AS non_null_num_1,
+  COUNT(*) - COUNT(num_1) AS null_num_1
+FROM sec1106;
+
+/* ------------------------------------------------------------
+   (11-9) Question 4
+   SEC1103: Count distinct combinations of (NUM_1, NUM_2) together
+   ------------------------------------------------------------ */
+SELECT
+  COUNT(DISTINCT TO_CHAR(num_1) || '|' || TO_CHAR(num_2)) AS distinct_num1_num2_pairs
+FROM sec1103;
+
+/* ------------------------------------------------------------
+   (11-11) Question 5
+   SEC1103: Show NULL problem with addition and how to fix it
+   1) Add NUM_1 + NUM_2 row-by-row (NULL issue)
+   2) Add each column first, then add totals
+   3) Convert NULLs to 0 first (NVL), then add row-by-row
+   ------------------------------------------------------------ */
+
+-- Q5.1: Row-by-row (shows NULL issue)
+SELECT
+  row_id,
+  num_1,
+  num_2,
+  (num_1 + num_2) AS row_sum
+FROM sec1103
+ORDER BY row_id;
+
+-- Q5.2: Add columns first (SUM ignores NULLs)
+SELECT
+  SUM(num_1) AS sum_num_1,
+  SUM(num_2) AS sum_num_2,
+  (SUM(num_1) + SUM(num_2)) AS total_sum
+FROM sec1103;
+
+-- Q5.3: Fix row-by-row using NVL to convert NULL to 0
+SELECT
+  row_id,
+  num_1,
+  num_2,
+  (NVL(num_1, 0) + NVL(num_2, 0)) AS row_sum_fixed
+FROM sec1103
+ORDER BY row_id;
+
+/* ------------------------------------------------------------
+   (12-2) Question 6
+   SEC1202: Group by COL_1 and sum COL_3
+   ------------------------------------------------------------ */
+SELECT
+  col_1,
+  SUM(col_3) AS sum_col_3
+FROM sec1202
+GROUP BY col_1
+ORDER BY col_1;
+
+/* ------------------------------------------------------------
+   (12-4) Question 7
+   SEC1202: Group by COL_1 and COL_2 and sum COL_3
+   ------------------------------------------------------------ */
+SELECT
+  col_1,
+  col_2,
+  SUM(col_3) AS sum_col_3
+FROM sec1202
+GROUP BY col_1, col_2
+ORDER BY col_1, col_2;
+
+/* ------------------------------------------------------------
+   (12-7) Question 8
+   SEC1202: Show detail rows AND a grand total for COL_3 using UNION ALL
+   ------------------------------------------------------------ */
+SELECT
+  TO_CHAR(row_id) AS row_id,
+  col_1,
+  col_2,
+  col_3
+FROM sec1202
+
+UNION ALL
+
+SELECT
+  'GRAND TOTAL' AS row_id,
+  NULL         AS col_1,
+  NULL         AS col_2,
+  SUM(col_3)   AS col_3
+FROM sec1202;
+
+/* ------------------------------------------------------------
+   (12-11) Question 9
+   SEC1211: Group on COL_1, sum COL_2, show only sums > 20
+   ------------------------------------------------------------ */
+SELECT
+  col_1,
+  SUM(col_2) AS sum_col_2
+FROM sec1211
+GROUP BY col_1
+HAVING SUM(col_2) > 20
+ORDER BY col_1;
